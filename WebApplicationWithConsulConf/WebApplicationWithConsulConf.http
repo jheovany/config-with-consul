@@ -1,0 +1,6 @@
+@WebApplicationWithConsulConf_HostAddress = http://localhost:5129
+
+GET {{WebApplicationWithConsulConf_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
